@@ -62,17 +62,36 @@ Nada além disso por enquanto.
 
 ## Como começar
 
-```bash
-git clone <url-deste-repositorio>
-cd desafio-financeiro
+Este repositório é um **template**, não um repositório para você clonar direto. Você
+cria o **seu**, a partir dele, e é no seu que você trabalha as 8 semanas.
 
+**1. Crie seu repositório a partir do template.** No topo desta página, clique em
+**Use this template** → **Create a new repository**. Dê o nome que quiser, escolha
+público ou privado, e crie.
+
+**2. Clone o seu repositório** (o que você acabou de criar, não este):
+
+```bash
+git clone <url-do-SEU-repositorio>
+cd <nome-do-seu-repositorio>
+```
+
+**3. Confira se sua máquina está pronta:**
+
+```bash
 python --version    # precisa ser 3.10 ou superior
 duckdb --version
 git --version
 ```
 
-Se os três comandos responderem com uma versão, sua máquina está pronta. Abra o
-desafio da Semana 1 (ele vem pela plataforma) e comece.
+Se os três comandos responderem com uma versão, você está pronto. Abra o desafio da
+Semana 1 (ele vem pela plataforma) e comece.
+
+> **Por que template e não fork ou clone?** Porque o repositório passa a ser seu de
+> verdade: histórico limpo, começando do zero, e você commitando à vontade sem pedir
+> permissão a ninguém. Neste aqui você não tem acesso de escrita — e nem precisa ter.
+> Commite no seu, semana a semana. O histórico do seu repositório vira o registro de
+> como você chegou onde chegou.
 
 ## A zona bruta
 
