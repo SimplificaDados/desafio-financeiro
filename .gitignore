@@ -1,0 +1,13 @@
+# ambiente
+.venv/
+venv/
+__pycache__/
+*.pyc
+
+# ferramenta de producao do curso
+_build/
+.claude/
+
+# sistema operacional
+.DS_Store
+Thumbs.db

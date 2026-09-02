@@ -20,7 +20,6 @@ pasta por dia. É com isso que você trabalha. O resto é com você.
 .
 - README.md                        você está aqui
 - .gitignore                       ignora ambiente e ferramenta; repare no que ele NÃO ignora
-- verificar_ambiente.py            confere se sua máquina está pronta para a Semana 1
 - data/
   - raw/                           a zona bruta: o dado como ele chegou
     - LEIA-ME.md                   o contrato de extração, escrito pela engenharia da Norte
@@ -66,11 +65,14 @@ Nada além disso por enquanto.
 ```bash
 git clone <url-deste-repositorio>
 cd desafio-financeiro
-python verificar_ambiente.py
+
+python --version    # precisa ser 3.10 ou superior
+duckdb --version
+git --version
 ```
 
-Se o relatório disser `PASSOU` em tudo, sua máquina está pronta. Abra o desafio da
-Semana 1 (ele vem pela plataforma) e comece.
+Se os três comandos responderem com uma versão, sua máquina está pronta. Abra o
+desafio da Semana 1 (ele vem pela plataforma) e comece.
 
 ## A zona bruta
 
